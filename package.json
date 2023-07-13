@@ -9,7 +9,8 @@
   "devDependencies": {},
   "scripts": {
     "open": "open index.html",
-    "start": "open index.html"
+    "start": "open index.html",
+    "scss": "sass --watch ./scss/custom.scss ./css/custom.css"
   },
   "keywords": [],
   "author": "",
