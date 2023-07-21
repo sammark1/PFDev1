@@ -1,5 +1,26 @@
 @import "../node_modules/bootstrap/scss/functions";
 
+@font-face {
+    font-family: "Value";
+    src: url(../resources/fonts/ValueSans/Value.woff) format("woff");
+    font-style: "normal";
+    font-weight:400;
+}
+@font-face {
+    font-family: "Value";
+    src: url(../resources/fonts/ValueSans/Value-Medium.woff) format("woff");
+    font-style: "medium";
+    font-weight:500;
+}
+@font-face {
+    font-family: "Value";
+    src: url(../resources/fonts/ValueSans/Value-Bold.woff) format("woff");
+    font-style: "bold";
+    font-weight:700;
+}
+
+$font-family-sans-serif: "Value", sans-serif;
+
 $primary: #5649ff;
 $secondary:#ffefd6;
 
