@@ -1,28 +1,3 @@
-/* @font-face {
-    font-family: "Value";
-    src: url(../resources/fonts/ValueSans/Value.woff) format('woff');
-    font-style: normal;
-    font-weight:400;
-}
-@font-face {
-    font-family: "Value";
-    src: url(../resources/fonts/ValueSans/Value-Bold.woff) format('woff');
-    font-style: bold;
-    font-weight:700;
-}
-@font-face {
-    font-family: "Value";
-    src: url(../resources/fonts/ValueSans/Value-Medim.woff) format('woff');
-    font-style: medium;
-    font-weight:500;
-}
-@font-face {
-    font-family: "Value";
-    src: url(../resources/fonts/ValueSans/Value-Black.woff) format('woff');
-    font-style: black;
-    font-weight:900;
-}
-*/ 
 body{
     letter-spacing: -1.16px !important;
 }
@@ -36,13 +11,36 @@ body{
     letter-spacing: 0;
 }
 
+.value-regular{
+    font-size: 12pt;
+    letter-spacing: 1.2;
+}
+
+.line-space-2{
+    letter-spacing: -0.5px !important;
+}
+
+.text-gradient{
+    background: linear-gradient(45deg,#B163AF, #4120B9);
+    background: -webkit-linear-gradient(45deg, #B163AF, #4120B9);
+    background-clip: text; 
+    -webkit-background-clip: text;
+    color:transparent;
+    -webkit-text-fill-color: transparent;
+}
+
+.section-hiw-gradient-1 {
+    background-color: linear-gradient(90deg,#FAD8CC, #F7CDD7);
+    background: -webkit-linear-gradient(90deg, #FAD8CC, #F7CDD7);
+}
+
 /* SECTION test styles */
 
-/* div , .container {
+div , .container {
     box-shadow:inset
     0 0 0 1px #f4aab9;
     background-color: #ff008808;
-} */
+}
 
 .background-test{
     background-color: tomato;
