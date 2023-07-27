@@ -34,5 +34,23 @@ $theme-colors: map-merge($theme-colors, (
   "secondary":$secondary,
 ));
 
+$spacers: map-merge($spacers, (
+    5:$spacer * 2,
+    6:$spacer * 3,
+    7:$spacer * 4,
+    8:$spacer * 6,
+    9:$spacer * 8,
+));
+
+$position-values: (
+  0: 0,
+  15:15%,
+  25: 25%,
+  50: 50%,
+  75: 75%,
+  100: 100%
+);
+
+
 
 @import "../node_modules/bootstrap/scss/bootstrap";

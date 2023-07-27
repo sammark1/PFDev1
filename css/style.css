@@ -34,12 +34,37 @@ body{
     background: -webkit-linear-gradient(90deg, #FAD8CC, #F7CDD7);
 }
 
+.bg-progress-bar{
+    /* TODO - refactor progress bar colors */
+    background-color: #c9c9c9;
+    width: 100%;
+    height:5rem;
+    border-radius: 20rem;
+    overflow:hidden;
+}
+
+.bg-progress-bar > .progress{
+    background-color: rgb(255, 197, 197);
+    height:100%;
+    width:75%;
+    border-radius: 20rem;
+}
+
 /* SECTION test styles */
 
-div , .container {
+/* div , .container {
     box-shadow:inset
     0 0 0 1px #f4aab9;
     background-color: #ff008808;
+} */
+
+.test-border-red{
+    box-shadow:inset
+    0 0 0 1px #ff724b;
+}
+.test-border-green{
+    box-shadow:inset
+    0 0 0 1px #0bff03;
 }
 
 .background-test{
